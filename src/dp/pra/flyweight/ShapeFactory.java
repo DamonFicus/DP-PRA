@@ -5,6 +5,7 @@ import java.util.HashMap;
 /**
  * 享元模式
  * Created by mrficus on 2018/9/11.
+ * git subversions
  */
 public class ShapeFactory {
 
