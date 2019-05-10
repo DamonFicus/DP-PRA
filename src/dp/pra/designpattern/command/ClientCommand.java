@@ -1,4 +1,4 @@
-package dp.pra.command;
+package dp.pra.designpattern.command;
 
 /**
  * @author mrficus

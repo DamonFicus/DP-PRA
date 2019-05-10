@@ -1,4 +1,4 @@
-package dp.pra.flyweight;
+package dp.pra.designpattern.flyweight;
 
 /**
  *享元模式
@@ -12,6 +12,7 @@ package dp.pra.flyweight;
  * @date 2018/9/11
  */
 public class FlyWeightPatternDemo {
+
     private static final String colors[] ={"Red","Green","Blue","Yellow","White","Black"};
 
 
@@ -19,11 +20,11 @@ public class FlyWeightPatternDemo {
     public static void main(String[] args) {
 
         for(int i=0;i<20;i++){
-           Circle circle= (Circle) ShapeFactory.getCircle(getRandomColor());
-           circle.setX(getRandomX());
-           circle.setY(getRandomY());
-           circle.setRadius(100);
-           circle.draw();
+           FlyWeightCircle flyWeightCircle = (FlyWeightCircle) FlyWeightShapeFactory.getCircle(getRandomColor());
+           flyWeightCircle.setX(getRandomX());
+           flyWeightCircle.setY(getRandomY());
+           flyWeightCircle.setRadius(100);
+           flyWeightCircle.draw();
 
         }
     }

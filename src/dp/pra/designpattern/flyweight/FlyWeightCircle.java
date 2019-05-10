@@ -1,23 +1,24 @@
-package dp.pra.flyweight;
+package dp.pra.designpattern.flyweight;
 
 /**
  * Created by mrficus on 2018/9/11.
  */
-public class Circle implements Shape {
+public class FlyWeightCircle implements FlyWeightShape {
+
     private String color;
     private int x;
     private int y;
     private int radius;
 
 
-    public Circle(String color){
+    public FlyWeightCircle(String color){
         this.color=color;
 
     }
 
     @Override
     public void draw() {
-        System.out.println("Circle: Draw() [Color : " + color
+        System.out.println("FlyWeightCircle: Draw() [Color : " + color
                 +", x : " + x +", y :" + y +", radius :" + radius);
     }
 
