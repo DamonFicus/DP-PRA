@@ -14,6 +14,8 @@ public class StaticInnerClass {
 
     public void test(){
         StaticInner si = new StaticInnerClass.StaticInner();
+//      StaticInner si = new StaticInner();  也可以
+
         si.innerMethod();
     }
 
