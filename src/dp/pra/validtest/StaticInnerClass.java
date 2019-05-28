@@ -2,6 +2,7 @@ package dp.pra.validtest;
 
 /**
  * @author mrficus
+ * 静态内部类
  */
 public class StaticInnerClass {
     private static  int shared =9;
