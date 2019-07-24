@@ -12,12 +12,8 @@ public class BuilderTest {
 //        prd.setCode("001");
 //        prd.setDesc("incase");
 //        prd.setWeight(3);
-
         prd.setWeight(3).setDesc("incase").setCode("002");
 
         System.out.println(prd);
-
     }
-
-
 }
