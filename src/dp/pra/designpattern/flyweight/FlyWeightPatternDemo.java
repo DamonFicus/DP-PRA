@@ -13,7 +13,7 @@ package dp.pra.designpattern.flyweight;
  */
 public class FlyWeightPatternDemo {
 
-    private static final String colors[] ={"Red","Green","Blue","Yellow","White","Black"};
+    private static final String COLORS[] ={"Red","Green","Blue","Yellow","White","Black"};
 
 
 
@@ -30,7 +30,7 @@ public class FlyWeightPatternDemo {
     }
 
     private static String  getRandomColor(){
-        return colors[(int)(Math.random()*colors.length)];
+        return COLORS[(int)(Math.random()*COLORS.length)];
     }
 
     private static int getRandomX() {
