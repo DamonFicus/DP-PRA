@@ -1,7 +1,9 @@
 package dp.pra.designpattern.flyweight;
 
 /**
- * Created by mrficus on 2018/9/11.
+ *
+ * @author mrficus
+ * @date 2018/9/11
  */
 public class FlyWeightCircle implements FlyWeightShape {
 

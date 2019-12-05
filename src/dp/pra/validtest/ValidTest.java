@@ -25,7 +25,6 @@ public class ValidTest {
         System.out.println(map.get("no").toString());
         System.out.println(map.get("double").toString());
         System.out.println(map.get("date").toString());
-
     }
 
 
