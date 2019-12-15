@@ -1,5 +1,8 @@
 package dp.pra.designpattern.factory;
 
+/**
+ * @author DamonFicus
+ */
 public class RectangleFactory extends ShapeFactoryMethod {
     @Override
     public Shape createShape() {

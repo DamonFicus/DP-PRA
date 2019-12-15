@@ -13,7 +13,7 @@ package dp.pra.designpattern.flyweight;
  */
 public class FlyWeightPatternDemo {
 
-    private static final String colors[] ={"Red","Green","Blue","Yellow","White","Black"};
+    private static final String[] COLORS ={"Red","Green","Blue","Yellow","White","Black"};
 
 
 
@@ -29,8 +29,13 @@ public class FlyWeightPatternDemo {
         }
     }
 
+
+    /**
+     * Math.random会生成一个0到1的double型随机数，0<=Math.random<1 用一个N去做乘法处理，然后转为整理，就可以得到这个N范围内
+     * 的随机整型数；
+     * */
     private static String  getRandomColor(){
-        return colors[(int)(Math.random()*colors.length)];
+        return COLORS[(int)(Math.random()*COLORS.length)];
     }
 
     private static int getRandomX() {

@@ -2,20 +2,25 @@ package dp.pra.designpattern.factory;
 
 /**
  *简单工厂模式
+ * @author DamonFicus
  */
 public class ShapeFactory {
+
+    private static final String CIRCLE="circle";
+    private static final String RECTANGLE="rectangle";
+    private static final String SQUARE="square";
 
    public  Shape getShape(String shapeType){
        if(shapeType==null||shapeType.length()<1){
            return null;
        }
-       else if(shapeType.equalsIgnoreCase("circle")){
+       else if(CIRCLE.equalsIgnoreCase(shapeType)){
            return new Circle();
        }
-       else if(shapeType.equalsIgnoreCase("rectangle")){
+       else if(RECTANGLE.equalsIgnoreCase(shapeType)){
            return new Rectangle();
        }
-       else if(shapeType.equalsIgnoreCase("square")){
+       else if(SQUARE .equalsIgnoreCase(shapeType)){
            return new Square();
        }
        else{
